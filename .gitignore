@@ -3,6 +3,14 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 .utmp/
+
+# Some global gitignore templates ignore folders ending with `~`.
+# UPM uses `Samples~` and `Documentation~` by design, so make sure they are not ignored.
+!Samples~/
+!Samples~/**
+!Documentation~/
+!Documentation~/**
+
 UnityProject~/[Ll]ibrary/
 UnityProject~/[Tt]emp/
 UnityProject~/[Oo]bj/
