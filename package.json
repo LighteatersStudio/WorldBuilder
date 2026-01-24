@@ -1,0 +1,21 @@
+{
+  "name": "com.LighteatersStudio.worldbuilder",
+  "version": "0.1.0",
+  "displayName": "WorldBuilder",
+  "description": "WorldBuilder plugin",
+  "unity": "6000.0",
+  "author": {
+    "name": "LighteatersStudio",
+    "url": "https://github.com/LighteatersStudio/WorldBuilder"
+  },
+  "dependencies": {
+    "com.unity.addressables": "2.2.2"
+  },
+  "samples": [
+    {
+      "displayName": "WorldBuilder Demo",
+      "description": "Demo scene and project assets used for showcasing WorldBuilder.",
+      "path": "Samples~/WorldBuilder Demo"
+    }
+  ]
+}
